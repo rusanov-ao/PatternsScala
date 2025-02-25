@@ -7,7 +7,7 @@ class Factory {
       case "linux" => new LinuxOS
       case "windows" => new WindowsOS
       case "mac" => new MacOS
-      case _ => throw new IllegalArgumentException("Неизвестная опрационная система")
+      case _ => throw new IllegalArgumentException("Неизвестная операционная система")
     }
   }
 
