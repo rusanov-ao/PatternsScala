@@ -1,4 +1,4 @@
-package org.example.behavioral.templateMethod
+package org.example.behavioral.template_method
 
 object Main {
   def main(args: Array[String]): Unit = {

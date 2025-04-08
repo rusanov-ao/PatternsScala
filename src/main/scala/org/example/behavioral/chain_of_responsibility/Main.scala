@@ -1,4 +1,4 @@
-package org.example.behavioral.chainOfResponsibility
+package org.example.behavioral.chain_of_responsibility
 
 object Main {
   def main(args: Array[String]): Unit = {

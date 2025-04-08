@@ -1,6 +1,6 @@
-package org.example.behavioral.chainOfResponsibility
+package org.example.behavioral.chain_of_responsibility
 
-class VisaPaymet extends Payment {
+class MasterCardPayment extends Payment {
   private var nextPayment: Payment = _
 
   // Метод позволяет провести оплату через другую платежную систему
@@ -10,6 +10,6 @@ class VisaPaymet extends Payment {
   }
 
   override def pay(): Unit = {
-    println("Visa payment")
+    println("MasterCard payment")
   }
 }

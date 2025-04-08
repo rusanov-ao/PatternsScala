@@ -1,4 +1,4 @@
-package org.example.generative.abstractFactory
+package org.example.generative.abstract_factory
 
 object Main {
 

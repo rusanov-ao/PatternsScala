@@ -1,4 +1,4 @@
-package org.example.behavioral.templateMethod
+package org.example.behavioral.template_method
 
 class SportCar extends Car {
   override def startEngine(): Unit = {
