@@ -1,7 +1,7 @@
 package org.example.functional_patterns.cake
 // Создаем компонент для приложения
 trait AppComponent {
-// Используем самотип, вместо наследования
+// Используем самотип, вместо наследования (self-types)
   self: DbComponent =>
 
   val appService: AppService
