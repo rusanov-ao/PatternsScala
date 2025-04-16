@@ -3,7 +3,7 @@ package org.example.functional_patterns.pimp_my_library
 object StringExtensions {
 
   // Создаем обертку (wrapper)
-  implicit class RichString(val str: String) extends AnyVal {
+  implicit class RichString(val str: String) {
 
     // Добавляем новый метод toSnakeCase
     def toSnakeCase: String = {
